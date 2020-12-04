@@ -2,13 +2,70 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Development: Card Hand Accumulator</title>
     <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Deployment Link: -->
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+    <h1>Development: Card Hand Accumulator</h1>
+    <h2>
+   		How can you use React to develop useful applications?
+    </h2>
+    
+    In this project, I began to explore the usefulness of the component-based React web framework. 
+    Specifically, the purpose of this project is to use the React functionality
+    to create filtering, sorting, and accumulating for a list-based application. I decided to utilize the concept
+    of selecting cards from a deck for this purpose.
+
+    <div class="overview">
+      <h2>Functionality Overview</h2>
+      <p>
+        The overall goal of this application was to provide an easy means for people to create a "hand" of cards and
+        to view the total score of that hand. To do this, values of 2 to 14 were assigned for cards from 2 through Ace.
+      </p>
+      <p>
+        To easily add and remove cards from the user's hand, the user can filter the deck by card description (number), suit,
+        and color. The user can also sort by value of cards in ascending or descending order. 
+      </p>
+      <p>
+        When a card is added to the hand, it's value is automatically added to the "Total Hand Value" for a quick way for 
+        users to determine the total value of their hand.
+      </p>
+    </div>
+
+    <div class="usability">
+      <h2>Usability</h2>
+      <p>For usability purposes, various functionalities were added to assist users and more align this application to the mental model of users for a card deck:</p>
+      <ul>
+        <li>When a card is moved to the hand, it is removed from the deck view as it would be when playing with physical cards.</li>
+        <li>The entire box for a card and it's textual summary can be clicked on to easily move cards between the hand and the deck.</li>
+        <li>A "Remove Filters and Sort" button is added for convenience that returns the deck to it's original ordering.</li>
+        <li>A "Reset Hand" button is added for convenience that returns all cards in the hand to the deck.</li>
+        <li>A shuffle deck feature is added that removes the filters and sorts and shuffles the order of the deck (the hand remains the same intentionally).</li>
+      </ul>
+    </div>
+
+    <div class="deployment">
+      <h2>Deployment Links</h2>
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/devram2000/development">
+        <h3>GitHub Repo</h3></a>
+      
+        <a target="_blank" rel="noopener noreferrer" href="https://mysterious-temple-83221.herokuapp.com/">
+          <h3>Card Hand Accumulator</h3></a>
+  
+
+    </div>
+
+    <div class="conclusion">
+      <h2>Conclusion</h2>
+      In the end, this project was developed to examine React as a framework for creating useful applications. 
+      Moving forward, this particular application does have much room for improvement (user ability to change 
+      card values like the Ace, visual design tweaks, improving accessibility, etc.), but we can definitely see that React can be used to transform
+      basic web interfaces into much more useful and complex resources!
+    </div>
+
+
+    
 </html>
