@@ -43,6 +43,15 @@ body {
     max-width: 100%;
     height: auto;    
   }
+
+  .screenshot {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: groove 10px;
+    border-color: #b2b2b2;
+}
+
   
   h1 {
     color: #4040a1;
